@@ -16,8 +16,7 @@ const RegisterForm = () => {
   const strengthColor = { strong: 'var(--success)', medium: 'var(--warning)', weak: 'var(--danger)' };
 
   return (
-    <div className="auth-page">
-      <div className="auth-card">
+    <div className="auth-card">
         <div className="auth-logo">
           <div className="auth-logo-icon">✨</div>
           <h1 className="auth-title">Create account</h1>
@@ -93,7 +92,6 @@ const RegisterForm = () => {
           Already have an account? <Link to="/login">Sign in</Link>
         </p>
       </div>
-    </div>
   );
 };
 
